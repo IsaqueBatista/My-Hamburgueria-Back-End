@@ -30,7 +30,6 @@ const checkRequestId = (req, res, next) => {
 
 
 app.get('/pedidos', (req, res) => {
-    const { name, pedido } = req.query
     return res.json(listaPedidos);
 });
 
